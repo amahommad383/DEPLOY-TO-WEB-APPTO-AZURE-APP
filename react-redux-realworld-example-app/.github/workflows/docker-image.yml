@@ -1,0 +1,38 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+#     - name: Build the Docker image
+#       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+    - name: Login to ACR
+      uses: docker/login-action@v2
+      with:
+          registry: dersacr.azurecr.io
+          username: ${{ secrets.ACR_USERNAME }}
+          password: ${{ secrets.ACR_PASSWORD }}
+      
+    - name: Build and push
+      uses: docker/build-push-action@v4
+      with:
+          push: true
+          tags: dersacr.azurecr.io/user/app:latest
+          
+     
+    - uses: azure/webapps-deploy@v2
+      with:
+          app-name: 'kaan-pro'
+          publish-profile: ${{ secrets.AZUREWEBAPPPUBLISHPROFILE }}
+          images: 'dersacr.azurecr.io/user/app:latest'
+#         images: 'dersacr.azurecr.io/user/app:latest:${{ github.sha }}'     
