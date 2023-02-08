@@ -32,3 +32,27 @@ Prerequisites :
 ![Screenshot 2023-02-05 at 8 56 39 AM](https://user-images.githubusercontent.com/113396342/217632782-b58144bd-7164-4054-97f5-fe6e953e0756.png)
 #
 
+5-  Walk through the steps of the wizard by first selecting GitHub as the location of your source code. 
+
+![Screenshot 2023-02-05 at 9 10 47 AM](https://user-images.githubusercontent.com/113396342/217638839-0d15cdc5-4775-4c7e-bab2-59274c42692f.png)
+#
+6- When the list of repositories appears, select your repository. 
+
+![Screenshot 2023-02-05 at 9 10 57 AM](https://user-images.githubusercontent.com/113396342/217639058-7971399c-4d8d-4b30-9c21-d935837f5dc8.png)
+#
+
+7- When the Configure tab appears, select Docker build and push an image to ACR.
+
+![Screenshot 2023-02-05 at 9 11 04 AM](https://user-images.githubusercontent.com/113396342/217639369-3de7ef44-3c35-4ebb-a93b-be832263e750.png)
+#
+
+8- Build and Push job has been done.
+
+![Screenshot 2023-02-05 at 9 22 56 AM](https://user-images.githubusercontent.com/113396342/217639635-1b75cd55-36c8-4b94-910c-6d6fa7c21ac2.png)
+
+    - Image has been deployed to ACR
+
+![Screenshot 2023-02-05 at 9 23 38 AM](https://user-images.githubusercontent.com/113396342/217639788-e040ab94-5a69-409d-804d-fb87388d33ba.png)
+#
+
+# RELEASE TO AZURE WEB APPS
