@@ -16,6 +16,8 @@ Prerequisites :
 #
 
 3- Create new service connection to make a connection between ACR-AzureDevOps and Github-AzureDevOps
+   
+   - Project Settings > Service Connections > Create service connection 
 
 ![Screenshot 2023-02-05 at 8 57 12 AM](https://user-images.githubusercontent.com/113396342/217633014-62678a4b-86c4-440c-a497-0c29e4289f29.png)
 
