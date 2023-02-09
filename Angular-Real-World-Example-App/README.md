@@ -7,7 +7,8 @@ Prerequisites :
 # Project Task and Steps:
 1- Create a Azure Container Registry >>> <a href="https://github.com/hkaanturgut/azure-devops-apps/tree/main/terraspace%20codes/app/stacks/acr" target="_blank">Terraspace Codes</a> 
 
-![Screenshot 2023-02-05 at 8 52 24 AM](https://user-images.githubusercontent.com/113396342/217632235-32b9ae36-96db-4d2e-80d3-bd0faacb642a.png)
+![Screenshot 2023-02-05 at 8 52 24 AM](https://user-images.githubusercontent.com/113396342/217688610-006dc446-8ecf-4a3d-b15f-f154b2cf40b5.png)
+
 #
 
 2- Create a Azure DevOps Project 
@@ -56,3 +57,72 @@ Prerequisites :
 #
 
 # RELEASE TO AZURE WEB APPS
+
+1- Create a Release Pipeline from the Release tab of the Pipeline
+
+![Screenshot 2023-02-05 at 9 24 30 AM](https://user-images.githubusercontent.com/113396342/217688921-9083a95c-2e43-4288-8e13-d4ae9866583d.png)
+#
+
+2- Select Azure App Service deployment
+
+![Screenshot 2023-02-05 at 9 24 59 AM](https://user-images.githubusercontent.com/113396342/217689291-709b0b52-0965-41c0-ac6c-86b159c9e55b.png)
+#
+
+3- Add the artifact 
+
+![Screenshot 2023-02-05 at 9 25 23 AM](https://user-images.githubusercontent.com/113396342/217689347-8de010ed-1a8e-4421-b793-31105be835c7.png)
+
+    - Do not forget to enable continuous deployment trigger
+    
+![Screenshot 2023-02-05 at 9 25 47 AM](https://user-images.githubusercontent.com/113396342/217689586-f4efccc5-27da-4f75-8984-acd315764d98.png)  
+#
+
+4- Make the configurations of the stage 
+   
+    - Save and click on Create release
+    
+![Screenshot 2023-02-05 at 9 28 03 AM](https://user-images.githubusercontent.com/113396342/217693430-9ce84e4b-624f-4c73-8881-88e2248495cb.png)
+
+![Screenshot 2023-02-05 at 9 28 28 AM](https://user-images.githubusercontent.com/113396342/217693477-c924c69f-3152-43ac-8562-1cfd4a5d6be0.png)
+#
+
+- Release pipeline is succesfull
+
+![Screenshot 2023-02-05 at 9 32 22 AM](https://user-images.githubusercontent.com/113396342/217693646-333fa57a-f9e0-435f-9837-b93ec8a881f5.png)
+#
+
+- Logs of the stage can be viewed from logs tab
+
+![Screenshot 2023-02-05 at 9 32 46 AM](https://user-images.githubusercontent.com/113396342/217693883-537d486f-0fe2-4d8e-8b02-95b6ca3c4ed4.png)
+#
+
+- Here is the working website throug Azure Web App
+
+![Screenshot 2023-02-05 at 9 32 53 AM](https://user-images.githubusercontent.com/113396342/217694126-a94e0bea-20ef-4e11-ada5-2cc9de4f1258.png)
+#
+
+# TESTING OUR AUTO RELEASE PIPELINE
+
+- I changed the sentence under our main title on home page
+
+![Screenshot 2023-02-05 at 9 35 06 AM](https://user-images.githubusercontent.com/113396342/217694936-170470c5-b8b7-4761-a0f6-7b55906d5955.png)
+#
+
+- Pipeline has been trigged as changed code just pushed to the Github repository
+
+![Screenshot 2023-02-05 at 9 36 24 AM](https://user-images.githubusercontent.com/113396342/217695165-9433d686-0f2e-49a3-8387-d23c2e8a1959.png)
+#
+
+- After pipeline is done , release pipeline has been automaticly triggered.
+
+![Screenshot 2023-02-05 at 9 39 43 AM](https://user-images.githubusercontent.com/113396342/217695310-4fed7700-b67d-4255-bc87-2c3f9e27a32b.png)
+#
+
+- Release pipeline succesfully deployed
+
+![Screenshot 2023-02-05 at 9 41 50 AM](https://user-images.githubusercontent.com/113396342/217695400-5b85174a-bccc-4cfd-92eb-b3e512b76e7e.png)
+#
+
+# RESULT
+
+![Screenshot 2023-02-05 at 9 41 56 AM](https://user-images.githubusercontent.com/113396342/217695655-0f6ddf58-bb56-4ca4-9854-8f38de801981.png)
