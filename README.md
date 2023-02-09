@@ -3,7 +3,11 @@
 - Welcome to this comprehensive guide on deploying five web applications to Azure App Service using Azure DevOps Pipelines. This Readme provides detailed instructions on the process, ensuring seamless and efficient deployment for all five applications. 
       
        - Although each application has its own dedicated Readme, the steps outlined here apply uniformly to all of them. 
+       
+![Blank diagram](https://user-images.githubusercontent.com/113396342/217949696-2f4d07b4-2902-40a3-8bdd-d7bd87723710.png)
+     
 # Let's get started!
+      
       
    APPS :
 - Angular-Real-World-Example-App
@@ -72,7 +76,7 @@ Prerequisites :
 
 # RELEASE TO AZURE WEB APPS
 
-- Create a Azure Linux Web App for Containers >>> <a href="https://github.com/hkaanturgut/azure-devops-apps/tree/main/terraspace%20codes/app/stacks/angular-app_linux_webapp" target="_blank">App Service Terraspace Codes</a> 
+- Create a Azure Linux Web App for Containers >>> <a href="https://github.com/hkaanturgut/DEPLOY-5-WEBAPPS-TO-AZURE-APP-SERVICE-USING-AZURE-DEVOPS-PIPELINES/tree/main/terraspace%20codes/app/stacks" target="_blank">App Service Terraspace Codes</a> 
 
 ![Screenshot 2023-02-05 at 9 23 08 AM](https://user-images.githubusercontent.com/113396342/217700929-adb3b2b3-830d-4b43-917e-166b305c1367.png)
 #
