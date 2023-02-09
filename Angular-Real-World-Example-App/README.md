@@ -58,7 +58,10 @@ Prerequisites :
 
 # RELEASE TO AZURE WEB APPS
 
-1- Create a Azure Linux Web App for Containers >>> <a href="https://github.com/hkaanturgut/azure-devops-apps/tree/main/terraspace%20codes/app/stacks/angular-app_linux_webapp" target="_blank">App Service Terraspace Codes</a> 
+- Create a Azure Linux Web App for Containers >>> <a href="https://github.com/hkaanturgut/azure-devops-apps/tree/main/terraspace%20codes/app/stacks/angular-app_linux_webapp" target="_blank">App Service Terraspace Codes</a> 
+
+![Screenshot 2023-02-05 at 9 23 08 AM](https://user-images.githubusercontent.com/113396342/217700929-adb3b2b3-830d-4b43-917e-166b305c1367.png)
+#
 
 1- Create a Release Pipeline from the Release tab of the Pipeline
 
@@ -83,7 +86,8 @@ Prerequisites :
    
     - Save and click on Create release
     
-![Screenshot 2023-02-05 at 9 28 03 AM](https://user-images.githubusercontent.com/113396342/217693430-9ce84e4b-624f-4c73-8881-88e2248495cb.png)
+![Screenshot 2023-02-05 at 9 28 03 AM](https://user-images.githubusercontent.com/113396342/217701323-af893b0c-e984-4988-a29e-3c6f4df99936.png)
+
 
 ![Screenshot 2023-02-05 at 9 28 28 AM](https://user-images.githubusercontent.com/113396342/217693477-c924c69f-3152-43ac-8562-1cfd4a5d6be0.png)
 #
