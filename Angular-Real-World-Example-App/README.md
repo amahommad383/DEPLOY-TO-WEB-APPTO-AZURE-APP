@@ -1,11 +1,11 @@
-# Deploy-python-flask-webapp-to-App-Service-using-Azure-Pipelines
+# Deploy-Angular-webapp-to-Azure-App-Service-using-Azure-Pipelines
 
 Prerequisites :
 - An Azure account with an active subscription. <a href="https://azure.microsoft.com/en-us/free/?WT.mc_id=A261C142F" target="_blank">Create an account for free.</a> 
 - An Azure DevOps organization. <a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/pipelines-sign-up?view=azure-devops" target="_blank">Create an account for free.</a> 
 
 # Project Task and Steps:
-1- Create a Azure Container Registry >>> <a href="https://github.com/hkaanturgut/azure-devops-apps/tree/main/terraspace%20codes/app/stacks/acr" target="_blank">Terraspace Codes</a> 
+1- Create a Azure Container Registry >>> <a href="https://github.com/hkaanturgut/azure-devops-apps/tree/main/terraspace%20codes/app/stacks/acr" target="_blank">ACR Terraspace Codes</a> 
 
 ![Screenshot 2023-02-05 at 8 52 24 AM](https://user-images.githubusercontent.com/113396342/217688610-006dc446-8ecf-4a3d-b15f-f154b2cf40b5.png)
 
@@ -57,6 +57,8 @@ Prerequisites :
 #
 
 # RELEASE TO AZURE WEB APPS
+
+1- Create a Azure Linux Web App for Containers >>> <a href="https://github.com/hkaanturgut/azure-devops-apps/tree/main/terraspace%20codes/app/stacks/angular-app_linux_webapp" target="_blank">App Service Terraspace Codes</a> 
 
 1- Create a Release Pipeline from the Release tab of the Pipeline
 
