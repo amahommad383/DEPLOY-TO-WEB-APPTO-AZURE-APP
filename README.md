@@ -1,7 +1,9 @@
 # DEPLOY 5 WEBAPPS TO AZURE APP SERVICE USING AZURE DEVOPS PIPELINES
 
-      - This Readme contains general instructions of how to deploy a app to azure app service by Azure DevOps Pipelines
-      - Taken steps are same for all of the 5 apps , eventhough 5 apps have them own Readme.md to present the project
+- Welcome to this comprehensive guide on deploying five web applications to Azure App Service using Azure DevOps Pipelines. This Readme provides detailed instructions on the process, ensuring seamless and efficient deployment for all five applications. 
+      
+       - Although each application has its own dedicated Readme, the steps outlined here apply uniformly to all of them. 
+# Let's get started!
       
    APPS :
 - Angular-Real-World-Example-App
