@@ -102,6 +102,17 @@ Prerequisites :
 ![Screenshot 2023-02-05 at 9 32 46 AM](https://user-images.githubusercontent.com/113396342/217693883-537d486f-0fe2-4d8e-8b02-95b6ca3c4ed4.png)
 #
 
+## Add the website expose port from the Azure Portal otherwise website will not work
+   
+   App Service > Configuration > Application Settings > New application setting > 
+   
+   ![Screenshot 2023-02-09 at 7 01 45 PM](https://user-images.githubusercontent.com/113396342/218096900-4851e758-d2a7-4c03-a361-480c5a02e254.png)
+
+   Add the exposing port that is on the Dockerfile ( this port is just for example )
+   
+   ![Screenshot 2023-02-09 at 7 02 06 PM](https://user-images.githubusercontent.com/113396342/218097051-68ad3708-9d14-49b8-8815-70d20ec1cd76.png)
+#
+
 - Here is the working website throug Azure Web App
 
 ![Screenshot 2023-02-05 at 9 32 53 AM](https://user-images.githubusercontent.com/113396342/217694126-a94e0bea-20ef-4e11-ada5-2cc9de4f1258.png)
