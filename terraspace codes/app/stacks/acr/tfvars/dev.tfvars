@@ -6,6 +6,6 @@ tags = {
 }
 
 // *** Azure Container Registery (ACR) Values ***
-  acr_name            = "acrforjenkins"
+  acr_name            = "azdevopsacrkaan"
   sku                 = "Premium"
   admin_enabled       = true
