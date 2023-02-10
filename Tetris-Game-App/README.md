@@ -132,3 +132,9 @@ Prerequisites :
 ![Screenshot 2023-02-07 at 10 32 55 AM](https://user-images.githubusercontent.com/113396342/217700272-a348ff0a-42ee-43a5-81d0-9c5ccdc83c32.png)
 #
 
+# TROUBLESHOOTING
+
+- If you are getting this port error , make sure you add the website port setting > <a href="https://github.com/hkaanturgut/DEPLOY-5-WEBAPPS-TO-AZURE-APP-SERVICE-USING-AZURE-DEVOPS-PIPELINES#add-the-website-expose-port-from-the-azure-portal-otherwise-website-will-not-work" target="_blank">Solution</a> 
+
+![Screenshot 2023-02-09 at 7 08 23 PM](https://user-images.githubusercontent.com/113396342/218098268-eeb103b1-55e9-4e9d-973b-689b2b53ddab.png)
+
